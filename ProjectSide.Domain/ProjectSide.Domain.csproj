@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -10,6 +10,14 @@
     <ProjectReference Include="..\Infrastructure.Database\ProjectSide.Infrastructure.Database.csproj" />
     <ProjectReference Include="..\ProjectSide.Contracts\ProjectSide.Application.Contracts.csproj" />
     <ProjectReference Include="..\ProjectSide.CrossCutting.Extensions\ProjectSide.CrossCutting.Extensions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Entities\" />
+    <Folder Include="DomainServicesImplementations\" />
+    <Folder Include="DomainServicesContracts\" />
+    <Folder Include="Constants\" />
   </ItemGroup>
 
 </Project>
