@@ -18,6 +18,7 @@
     <Folder Include="DomainServicesImplementations\" />
     <Folder Include="DomainServicesContracts\" />
     <Folder Include="Constants\" />
+    <Folder Include="Constants\" />
   </ItemGroup>
 
 </Project>

@@ -13,4 +13,9 @@
     <ProjectReference Include="..\ProjectSide.Domain\ProjectSide.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Implementations\" />
+    <Folder Include="Constants\" />
+  </ItemGroup>
+
 </Project>
