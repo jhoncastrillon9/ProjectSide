@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectSide.CrossCutting.Extensions\ProjectSide.CrossCutting.Extensions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BoundedContexts\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="DatabaseEntities\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure.Http\ProjectSide.Infrastructure.Http.csproj" />
+    <ProjectReference Include="..\ProjectSide.Contracts\ProjectSide.Application.Contracts.csproj" />
+    <ProjectReference Include="..\ProjectSide.CrossCutting.Extensions\ProjectSide.CrossCutting.Extensions.csproj" />
+    <ProjectReference Include="..\ProjectSide.Domain\ProjectSide.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
