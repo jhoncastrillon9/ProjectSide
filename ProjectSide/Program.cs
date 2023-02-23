@@ -1,10 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+using ProjectSide.Infrastructure.Database.BoundedContexts;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllersWithViews();
 
+//Context AddDbContext
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ProjectSideContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddHttpContextAccessor();
+
 var app = builder.Build();
+
+//Context AddDbContext
+using var scope = app.Services.CreateScope();
+var dbContext = scope.ServiceProvider.GetService<ProjectSideContext>();
+await dbContext.Database.EnsureCreatedAsync();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
