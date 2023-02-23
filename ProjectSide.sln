@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectSide.Application.Con
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Cross Cutting", "5 - Cross Cutting", "{9996A484-85B5-469C-884B-79A89E2D3E1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSide.CrossCutting.Extensions", "ProjectSide.CrossCutting.Extensions\ProjectSide.CrossCutting.Extensions.csproj", "{4E6641A3-7B6B-4AD3-9602-47473CAE8FE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectSide.CrossCutting.Extensions", "ProjectSide.CrossCutting.Extensions\ProjectSide.CrossCutting.Extensions.csproj", "{4E6641A3-7B6B-4AD3-9602-47473CAE8FE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -14,11 +14,13 @@
 
   <ItemGroup>
     <Folder Include="Enums\" />
-    <Folder Include="Entities\" />
-    <Folder Include="DomainServicesImplementations\" />
     <Folder Include="DomainServicesContracts\" />
     <Folder Include="Constants\" />
     <Folder Include="Constants\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.5.0" />
   </ItemGroup>
 
 </Project>
