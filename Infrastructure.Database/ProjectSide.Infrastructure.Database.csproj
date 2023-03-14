@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProjectSide.CrossCutting.Extensions\ProjectSide.CrossCutting.Extensions.csproj" />
+    <ProjectReference Include="..\ProjectSide.Domain\ProjectSide.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

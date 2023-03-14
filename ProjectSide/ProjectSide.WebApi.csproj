@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Application\ProjectSide.Application.Services.csproj" />
+    <ProjectReference Include="..\Infrastructure.Database\ProjectSide.Infrastructure.Database.csproj" />
     <ProjectReference Include="..\ProjectSide.Contracts\ProjectSide.Application.Contracts.csproj" />
     <ProjectReference Include="..\ProjectSide.CrossCutting.Extensions\ProjectSide.CrossCutting.Extensions.csproj" />
   </ItemGroup>
