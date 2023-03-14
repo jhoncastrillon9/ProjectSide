@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectSide.Domain.Entities
 {
-    internal class Company
+    public class Company
     {
     }
 }

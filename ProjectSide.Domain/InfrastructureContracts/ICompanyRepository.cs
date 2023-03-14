@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ProjectSide.Domain.Entities;
+
 
 namespace ProjectSide.Domain.InfrastructureContracts
 {
-    internal interface ICompanyRepository
+    public interface ICompanyRepository
     {
+        public Task<IEnumerable<Company>> GetAllAsync();
+        public Task<Company> GetByIdAsync(int id);
+        public Task<Company> InsertAsync(Company entity);
+        public Task<Company> UpdateAsync(Company entity);
 
     }
 }
